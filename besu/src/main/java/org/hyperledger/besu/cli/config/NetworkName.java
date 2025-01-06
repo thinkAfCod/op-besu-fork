@@ -31,6 +31,13 @@ public enum NetworkName {
   /** LUKSO mainnet network name. */
   LUKSO("/lukso.json", BigInteger.valueOf(42)),
 
+  /** Optimism Mainnet network name. */
+  OP_MAINNET("/optimism-mainnet.json", BigInteger.valueOf(10L)),
+  /** Base Mainnet network name. */
+  BASE_MAINNET("/base-mainnet.json", BigInteger.valueOf(8453L)),
+  /** Optimism sepolia network name. */
+  OP_SEPOLIA("/optimism-sepolia.json", BigInteger.valueOf(11155420L)),
+
   /**
    * EPHEMERY network name. The actual networkId used is calculated based on this default value and
    * the current time. https://ephemery.dev/
